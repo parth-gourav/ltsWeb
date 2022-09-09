@@ -32,3 +32,24 @@
   cursor: pointer;
   box-shadow: 0 0 8px 8px #d0d0d0;
 }
+.bg-enclaved:hover {
+  box-sizing: border-box !important;
+
+  margin: 3rem 0rem;
+
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 8px 8px #50dbb4;
+  transition: all 600ms ease-in;
+}
+
+.link-primary:hover {
+  color: white;
+  background-color: #02b290;
+  transition: all 400ms ease-in;
+}
+.link-secondary:hover {
+  color: white;
+  background-color: #b9345a;
+  transition: all 400ms ease-in;
+}
